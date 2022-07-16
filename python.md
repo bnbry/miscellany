@@ -86,3 +86,51 @@ interpolate with F-Strings or format
 
 ```
 
+### Conditionals
+
+```python
+  if thing:
+    do_stuff
+  elif other_thing:
+    do_other_stuff
+  else:
+    do_fallback
+```
+
+Be mindful of the trailing colon
+Truthy/falsey is a thing
+presence = truthy
+empty string/0/None are falsey
+
+### Comparisons
+
+```python
+  x = 1
+  x == 1
+  x != 1
+  x is 1
+  x < 1
+  x > 1
+  x <= 1
+  x >= 1
+```
+
+`==` compares value and `is` compares identity in memory
+
+https://realpython.com/courses/python-is-identity-vs-equality/#:~:text=The%20%3D%3D%20operator%20compares%20the,the%20same%20object%20in%20memory.
+
+### Boolean Operators
+
+```python
+  and
+  or
+  not
+```
+
+
+### Casting types
+
+```python
+value = "3"
+int(value) # 3
+```
